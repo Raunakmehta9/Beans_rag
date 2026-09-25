@@ -1,0 +1,626 @@
+[
+  {
+    "id": "25345638883607",
+    "title": "Reading the Routes Page",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/25345638883607-Reading-the-Routes-Page",
+    "created_at": "2024-08-01T19:07:34Z",
+    "updated_at": "2024-11-22T18:14:58Z",
+    "content": "From Dispatch Console  :\nThe Routes page will display all your live information for the day.\nThe Top Line Summary of information displays a high level view of all syncing data.\nFrom left to right it displays the following LIVE information for the day:\n1) All routes for the day (including any manually added routes)\n2) Your combined company service score\n3) The current number of exception codes affecting your company service score\n4) Any warnings that have been coded today\n5) Total deliveries for the day\n6) Total pickups for the day\n7) Total number of packages being handled that day (including all packages from both the delivery and pickup categories)\n********\nBelow the Top Line Summary bar, we will see a breakdown of all of the individual Routes for the day.\nFrom left to right it displays the following LIVE information for the Route:\n1) The route number\n2) The truck number on route\n3) The warehouse associated with the route\n4) The assignment status of the route\n5) The first/last delivery time (this indicates when the first/last package was released)\n6) Stops per hour\n7) The individual route service score\n8) The current number of exception codes affecting the route\n9) Any warnings that have been coded to the route\n10) Total deliveries for the route\n11) Total pickups for the route\n12) Total number of packages being handled on that route (including all packages from both the delivery and pickup categories)\n********\nIf you have multiple Warehouses or Contracts, you can filter this information at the top of the screen.\nThis can be accomplished by clicking on the drop down menu under Select Warehouse or Select Company and marking the data you would like to see.\nOnce you have selected the data, click the checkmark to the right of your selection to filter the information."
+  },
+  {
+    "id": "24766306186903",
+    "title": "Modify Stop Status in Dispatch",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/24766306186903-Modify-Stop-Status-in-Dispatch",
+    "created_at": "2024-07-09T17:55:24Z",
+    "updated_at": "2024-07-09T17:56:10Z",
+    "content": "From Dispatch Console :\n1.  Click on the route number to open the detailed view of the route.\n2.  Locate the stop card for the stop you wish to modify and click on it to highlight.\n3.  Click the \"Modify Stop\" button on the right of the screen.\n4.  On the \"Status\" line, use the dropdown menu to select the desired status for the stop and click \"save.\""
+  },
+  {
+    "id": "24263910031767",
+    "title": "How to link your existing Safety Forward account with Beans Route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/24263910031767-How-to-link-your-existing-Safety-Forward-account-with-Beans-Route",
+    "created_at": "2024-06-18T16:34:16Z",
+    "updated_at": "2024-06-18T16:34:58Z",
+    "content": "From the Dispatch Console :\n1.  Click: Settings > Preferences > Safety.\n2.  Click the button “Link to Existing Safety Forward Account” which will then take you to the Safety Forward webpage.\n3.  Sign into Safety Forward with the Primary Admin credentials for the Safety Forward account.\n4.  Once completed, return to Beans Route and click Assets > Drivers and Dispatchers to confirm drivers have been enrolled in safety training.  You will see the statement “Safety training is turned on” under each driver name."
+  },
+  {
+    "id": "23702986205207",
+    "title": "New Pins for Dispatch",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/23702986205207-New-Pins-for-Dispatch",
+    "created_at": "2024-05-23T20:30:10Z",
+    "updated_at": "2024-05-23T20:31:05Z",
+    "content": "Beans Route now has custom pins to help differentiate between residential and non-residential stops.  Currently these pins are only available in dispatch, but they will soon be available in the mobile app.\nTo update the pins for your account, follow the instructions below.\nFrom the Dispatch Console :\n1.  Click Settings > Preferences > User Interface\n2.  Use the dropdown menu to choose the pins you wish to use and then click “save.”\nThere are three versions to choose from.\nDefault Icons  – normal pin shape with small indicator icons on the upper right\nIcon Pack V2  – rectangular shape with small indicator icons on the upper left\nIcon Pack V3  – different shapes for each type of stop"
+  },
+  {
+    "id": "23698377074583",
+    "title": "Auto Location Update",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/23698377074583-Auto-Location-Update",
+    "created_at": "2024-05-23T18:17:05Z",
+    "updated_at": "2024-05-23T18:19:46Z",
+    "content": "Beans Route is making it even easier to ensure accurate deliveries.  We now offer auto-updating for location pins directly from the driver app. To use this feature, follow the steps below:\nFrom the Dispatch Console :\n1.  Click Settings > Preferences > Routes.\n2.  In the “Driver Controls” section, turn on the option “allow drivers to auto-update location data” and then click “Save” at the bottom of the page.   NOTE: we recommend a geofence of 500 feet to ensure best results.\nOnce the setting is enabled, if a driver attempts to deliver a stop outside of the geofenced area, they will receive a prompt asking if they wish to update the address location data. If the driver updates the location data, this change will be visible in Custom Geocodes*.  NOTE: the prompt to update location data is only visible when the driver tries to mark the delivery as successful.\n.\n*To view Custom Geocodes, from the dispatch console: click Settings > Custom Geocodes."
+  },
+  {
+    "id": "21081430898199",
+    "title": "Generate MMRs (FXG)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/21081430898199-Generate-MMRs-FXG",
+    "created_at": "2024-02-02T20:25:15Z",
+    "updated_at": "2024-06-25T19:07:42Z",
+    "content": "Use Beans Route to make generating MMR reports a simple task.   Upload a digital signature  in your account preferences to have the signature generate on the report. If you have vehicles in multiple warehouses,  create vehicle groups  so each warehouse can prepare their own MMRs.  Best practices include entering maintenance records as you receive them throughout the month and when entering records selecting the actual date of service.\nNOTE: You can enter maintenance and odometer records on the computer or in the mobile app, but you can only generate MMRs on the computer.\nFrom the Dispatch Console :\n1.  Click Assets > Vehicles.\nADD MAINTENANCE RECORDS\n1.  Click on the vehicle number to open the records.\n2.  Click the “Add Vehicle Record” button.\n3.  Select the date of maintenance by clicking on the date line and using the calendar.\nNOTE: the date automatically defaults to the current date.  You must select the actual date of maintenance for the MMRs to generate properly.\n4.  On the “Detail” line fill in the maintenance details. Click “Add Vehicle Record” to save.  Repeat the steps to enter all maintenance records.\nNOTE: You can attach maintenance invoices to each record by using the “Attach Files” button.\nADD MILEAGE RECORS (ODOMETER)\n1.  Click on the vehicle number to open the records.  Click the “Add Vehicle Record” button.\n2.  For “Type” use the dropdown menu to select “Odometer.”\n3.  For “Date” use the calendar to change the date to the last day of the previous month.\nNOTE: the date automatically defaults to the current date.  You must change the date for odometer readings to the last day of the previous month for the MMRs to generate properly.\n4.  Enter the mileage on the “Details” line.  Click “Add Vehicle Record” to save.  Repeat the steps to enter all mileage records.\nOUT OF SERVICE\n1.  If you have a vehicle which is out of service, click on the vehicle number to open the records.\n2.  Click the “Modify Vehicle” button.\n3.  Change the “Status” from “active” to “out of service” and click save.\nGENERATE MMR REPORTS\n1 .   Select the vehicles you wish to generate MMRs reports for by clicking on the row to highlight; to select all vehicles, click the \"select all\" icon above the list (circle with a checkmark).\nNOTE: If the “Active” filter is on, any vehicles marked “out of service” will not show in the list.  To see all vehicles, including those out of service, simply click the “x” on the “Active filter.”  MMRs will not be generated for vehicles marked \"out of service.\"\n2.  Click the \"Generate Report\" button.\n3.  Select the dates for the report.\nNOTE: The month automatically defaults to the previous month.  If you need to generate MMR reports for past months, simply click on the month line and select the appropriate month.  The report date automatically defaults to the current date; you can adjust the date by clicking on the report date line and using the calendar to select the desired date.\n4.  Click the “Generate Report” button.\n5.  The MMRs will be generated in PDF format.  Click the link to view the MMRs to print or to download and email to your terminal."
+  },
+  {
+    "id": "20983863903767",
+    "title": "Timesheets: Update/Adjust Driver Shift",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/20983863903767-Timesheets-Update-Adjust-Driver-Shift",
+    "created_at": "2024-01-30T18:22:15Z",
+    "updated_at": "2024-03-07T17:52:37Z",
+    "content": "From the Dispatch Manager :\nTO UPDATE A SHIFT\n1.  Click Assets > Timesheets > Driver View.\n2.  Locate the driver name in the list and click on the bubble for the date you want to update.\n3.  Using the dropdown menu select the route.\n4.  Click the \"clock\" icon to enter clock in and clock out times.\n5.  Select the clock in time and click \"ok.\"  Repeat for clock out time.\nTO ADJUST A SHIFT\n1.  Click on the bubble for the date/shift you want to adjust, and then click the \"clock\" icon.\n2.  Click the \"Reset Time\" button and confirm you wish to reset time by clicking \"yes.\"\n3.  Follow steps 4 and 5 above to enter the adjusted times for the shift."
+  },
+  {
+    "id": "19203809858583",
+    "title": "Managers: Enable Safety Gating",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/19203809858583-Managers-Enable-Safety-Gating",
+    "created_at": "2023-11-20T18:15:03Z",
+    "updated_at": "2024-03-07T18:15:14Z",
+    "content": "When your drivers are enrolled in safety training in Beans Route you can turn on  Safety Gating  which will prevent drivers who have not completed their assigned safety training courses from starting their route.  Once the driver has  completed the required safety training courses,  they can then go to the map and proceed with their route.  To turn on Safety Gating follow the instructions below.\nFrom the Dispatch Console :\n1.  Go to Settings > Preferences > Timesheets\n2.  Turn on the setting “Hide route if a driver is failing safety training\" and click \"save.\"\n3.  After completing the above steps, contact Beans Route Support to have Safety Gating enabled for your account.  Email:  support@beans.ai  or call (415)888-9059.\nKeep in mind once this setting is enabled, any driver failing safety training will not be able to view or start their route until the past due safety training courses are completed."
+  },
+  {
+    "id": "18316499892375",
+    "title": "Adding Multiple Signatures for MMRs",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/18316499892375-Adding-Multiple-Signatures-for-MMRs",
+    "created_at": "2023-10-16T21:44:16Z",
+    "updated_at": "2024-03-07T18:39:55Z",
+    "content": "For multiple warehouses, you can create a Vehicle Group for each warehouse to which you will then add vehicles belonging to a particular warehouse.  When you create a Vehicle Group, you can then add a signature for the individual who signs the MMR reports for a particular warehouse.  To create a Vehicle Group and add vehicles to that group, follow the instructions below.\nFrom the Dispatch Console :\nCREATE VEHICLE GROUP\n1.  Click Assets > Vehicle Groups.\n2.  Click “Add Vehicle Group” and fill in the required information  (Name, Fedex Entity ID, ISPA, CSA, and Signatory) .  Create a signature to upload. (You may take a photo with your phone or create a  digital signature .). Click “Add Vehicle Group.”\nADD VEHICLES TO GROUP\n1.  Click Assets > Vehicles.\n2.  Select the vehicles to add to a group by clicking on the row to highlight.\n3.  Click “Modify Vehicle.”\n4.  Select the vehicle group from the dropdown menu and click “Save.”\n5.  The vehicles will now indicate their assigned warehouse and group."
+  },
+  {
+    "id": "18314852042519",
+    "title": "Create a Digital Signature for MMR Reports",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/18314852042519-Create-a-Digital-Signature-for-MMR-Reports",
+    "created_at": "2023-10-16T20:54:44Z",
+    "updated_at": "2023-10-24T21:16:35Z",
+    "content": "Beans Route allows you to upload multiple signatures for MMR reports.  To create a digital signature, follow the steps below.\nGo to  www.signaturely.com\n1.  Create a free account and sign in.\n2.  Select  Edit Signature\n3.  Select  Create Signature\n4.  Type your Full Name and Initials in each box and select a font OR select \"Draw it in\" and use your mouse to create your signature.\n5.  Take a screenshot of your signature (Hint: crop the screenshot to remove white space with around the signature)."
+  },
+  {
+    "id": "18148707055895",
+    "title": "Managers: Reorder Stops in a Route (Optimize)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/18148707055895-Managers-Reorder-Stops-in-a-Route-Optimize",
+    "created_at": "2023-10-09T21:12:42Z",
+    "updated_at": "2024-01-12T17:32:36Z",
+    "content": "In addition to optimizing your entire route or optimizing specific areas, managers can also order the stops in a route one by one to create a custom optimization.\nFrom the Dispatch Console :\n1.  From the Routes page, click on the route number to be adjusted to open the detailed view of the route.\n2.  Above the address list, click the “order stops” icon (bulleted list).\n3.  Using your mouse, select the address card to move and drag it to the desired spot in the list (up or down).  Repeat for each address card you wish to move.\n4.  Click the “X” above the list to return to the list view."
+  },
+  {
+    "id": "17531776240279",
+    "title": "Drivers: Optimize Your Route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/17531776240279-Drivers-Optimize-Your-Route",
+    "created_at": "2023-09-14T18:20:02Z",
+    "updated_at": "2023-09-14T18:20:09Z",
+    "content": "With your Beans Route app you can choose to optimize your entire route or  break up your route into multiple optimized areas .\n1.  Go to the Deliver tab on your mobile app.  Expand or contract the map so all of the pins you want to optimize are clearly visible.  Click the black circle with the hand icon.\n2.  Use your finger to draw a circle around the pins to be optimized.\n3.  Select a pin as your first stop by clicking on the pin and then confirm your selection.  Select a pin as your last stop by clicking on the pin and confirm your selection.\n4.  Click the \"Optimize\" button."
+  },
+  {
+    "id": "17306255309079",
+    "title": "Starting a Route/ Pre-Dispatch Scanning",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/17306255309079-Starting-a-Route-Pre-Dispatch-Scanning",
+    "created_at": "2023-09-06T00:21:44Z",
+    "updated_at": "2023-09-06T00:22:00Z",
+    "content": "Once you have been assigned to a route by your manager, when you open your Beans Route app, you will be prompted to begin your pre-dispatch scan of the packages for delivery.\n1.  Click the \"Start Route\" button which will take you to the Hub where you will clock in.\n2.  Click the red \"Start Route\" button to begin the pre-dispatch scan.\n3.  Scan the barcode of each package, and the app will reconcile the barcode with a stop on your route. You will see the “package reconciled” message at the top of the screen.  If the scanned barcode is not correct, you will see the message “package cannot be reconciled.”\n4.  When you have scanned all of barcodes, you will see the message “package reconcile complete” and the number of barcodes scanned should match the number of stops on your route.\n4.  The app will then take you to your deliver tab, where you will begin your route."
+  },
+  {
+    "id": "16378088390679",
+    "title": "How to Cancel and Delete your Beans Route Account",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/16378088390679-How-to-Cancel-and-Delete-your-Beans-Route-Account",
+    "created_at": "2023-07-28T22:31:32Z",
+    "updated_at": "2023-07-28T22:43:50Z",
+    "content": "If you are an account owner and wish to cancel your Beans Route account, please  refer to the terms specified in the contract and/or Terms of Service.  If you still desire to cancel your account send an email request to support@beans.ai specifying the desired date of your cancellation.\nIf you choose to discontinue, cancel or terminate any Services for which you have agreed to on an Order Form before the end of the term agreed to in such Order Form, Beans Route shall have the right to immediately charge the Payment Method associated with your Account for the remaining balance due.\nAfter completing the term you agreed upon in your Order Form, you can cancel at any time by requesting it through our support email listed above.\nIf you are an employee of a company that uses Beans Route and you wish to delete your account, please talk to your employer who has the ability to remove your account through their web interface.\nTo delete your app from your phone, please locate the app on your home screen, long press on the app and then click on the option to remove the app."
+  },
+  {
+    "id": "15802746683287",
+    "title": "Assign a Direct Dispatcher/Manager to Driver(s)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/15802746683287-Assign-a-Direct-Dispatcher-Manager-to-Driver-s",
+    "created_at": "2023-07-05T19:43:02Z",
+    "updated_at": "2024-03-07T18:48:38Z",
+    "content": "From the Dispatch Console :\n1.  Click Assets > Drivers and Dispatchers.\n2.  Select an individual driver or several drivers by clicking on the row(s) to highlight them.  You can also select all drivers by clicking the “select all” icon (circle with checkmark).\n3.  Once you have selected the driver(s), click the “Modify Driver” button.\n4.  Select the Dispatcher or Manager from the dropdown list and click “save.”\nFrom the Mobile App :\n1.  From the Dispatch tab, click the menu bars in the upper right hand corner.\n2.  Click Assets > Drivers and Dispatchers.\n3.  Select the driver(s) to assign a dispatcher or manager and c lick the “modify” icon (blue circle with a pencil).\n4.  Select the Dispatcher or Manager from the dropdown list and click “save.”"
+  },
+  {
+    "id": "15316382525975",
+    "title": "Timesheets: Generate an Employee Timecard",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/15316382525975-Timesheets-Generate-an-Employee-Timecard",
+    "created_at": "2023-06-14T22:05:21Z",
+    "updated_at": "2024-03-07T19:51:39Z",
+    "content": "NOTE:  You can only generate reports from the computer, NOT on the mobile app.\nFrom the Dispatch Console :\n1.  Click Assets > Timesheets.\n2.  Click the box for “Driver View.”\n3.  Find the employee name in the list and click on the row to highlight it. Click the “Generate Report” button.\n4. Click on the date line and use the calendar to select the time period (start and end date).  Click generate report.\n5.  Choose the file version you wish to download by clicking the link."
+  },
+  {
+    "id": "14447109799063",
+    "title": "Managers: Message Drivers",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/14447109799063-Managers-Message-Drivers",
+    "created_at": "2023-05-08T17:53:57Z",
+    "updated_at": "2024-03-07T20:11:29Z",
+    "content": "From the Dispatch Console :\n1.  Click Assets > Drivers and Dispatchers.\n2.  Select driver(s) to receive the message by clicking on the row to highlight OR click the \"select all\" icon (circled checkmark) to select all users in your list.\n3.  Click the \"Send Message\" button.\n4.  Type your message in the space provided and click “Send.”\n5.  If you have safety enabled in your Beans Route account and would like to send a message to drivers failing safety, follow steps 1, 2, and 3 above then use the dropdown menu to select “send to selected failing safety.”  Beans Route has a pre-populated safety message which you can send as is or edit as needed.  Once you are satisfied with the message, click “Send.”  The message will be sent only to those drivers failing safety training.\nNOTE:  Drivers will receive messages via a push notification in the Beans Route mobile app.  For drivers who have not yet installed the Beans Route app, a text message will be sent to the phone number associated with their user profile; text messages are NOT sent to drivers using the Beans Route app.  Additionally, you can send the message to users via their email address by clicking the “Email” checkbox.\nFrom the Mobile App :\n1.  On the Dispatch tab, click the menu bars in the top right.\n2.  Click Assets > Drivers and Dispatchers.\n3.  Click the “circled checkmark” icon to select all users in your list.  If you don’t want message all users in the list, you can individually click on the row(s) for the user(s) to receive the message.\n4.  Click the blue circle with the “chat” icon.\n5.  Type your message and click “Send.”\n6.  You can send a message to any driver failing safety by using the dropdown menu to select “send to selected failing safety.”  Only drivers failing safety will receive that message."
+  },
+  {
+    "id": "14177529828631",
+    "title": "Managers: Time Commitment Stops",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/14177529828631-Managers-Time-Commitment-Stops",
+    "created_at": "2023-04-26T19:11:25Z",
+    "updated_at": "2023-10-25T21:00:06Z",
+    "content": "Beans Route allows you to add a time commitment window for drop-offs or pickups.  To add a time commitment window to a stop, follow the steps below.\nFrom Dispatch Console :\n1.  Click on the route number to open the detailed view of the route.\n2.  Locate the stop in the manifest, click on the address card to highlight it, and then click the “Modify Stop” button.\n3.  In the Modify Stop menu, scroll to the “Deliver By” option and click on the line to open the calendar.\n4.  Select the delivery date on the calendar.\n5.  Click on the second line to open the clock and select the deliver by time.\n6.  Click “Save.”"
+  },
+  {
+    "id": "14079361756567",
+    "title": "Step 1: How to Log Into Beans Route For The First Time.",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/14079361756567-Step-1-How-to-Log-Into-Beans-Route-For-The-First-Time",
+    "created_at": "2023-04-21T21:45:04Z",
+    "updated_at": "2026-08-15T02:45:43Z",
+    "content": "From the Mobile App :\nPlease make sure the text was sent to you, as each invite code is unique to each user.  Using someone else’s code will not work.\n1.  Open the text message sent to you.\n2.  Click the link in the text message to get the app for the appropriate device.  Download the Beans Route app.\n2.  Click the red “Sign in with email” button.  Make sure to sign in with the same email address your manager or dispatcher used to create your profile.   Your password is your email address , unless you previously changed your password.  Passwords are case-sensitive.\n."
+  },
+  {
+    "id": "13795796035607",
+    "title": "Managers: Archive – Verify a Delivery",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13795796035607-Managers-Archive-Verify-a-Delivery",
+    "created_at": "2023-04-12T21:39:17Z",
+    "updated_at": "2023-10-25T20:58:26Z",
+    "content": "Beans Route Archive gives you access to the last  six  weeks of route data.  You can use archive to  move location pins ,  reopen a closed route ,  generate POD reports  for specific routes, and verify deliveries, .  To verify a delivery, follow the instructions below.\nFrom the Dispatch Console :\n1.  Click the “Archive” link.\n2.  Enter the tracking number. The date range for the search will automatically expand to the last six weeks. Click “Search.”\n3.  The delivery information will populate.\n4.  Zoom in on the map; the green pin is the Beans Route location pin, and the red pin is where the driver closed the stop.\n5.  You can change the map to satellite view to confirm delivery location.\n6.  Click the red pin on the stop card to copy the exact lat/long of the closed stop to your clipboard which you can then drop into a mapping software."
+  },
+  {
+    "id": "13793555417111",
+    "title": "Managers: Archive – Generate a POD Report",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13793555417111-Managers-Archive-Generate-a-POD-Report",
+    "created_at": "2023-04-12T20:13:01Z",
+    "updated_at": "2024-03-07T17:43:25Z",
+    "content": "Beans Route Archive gives you access to the last  six  weeks of route data.  You can use archive to  move location pins ,  reopen a closed route ,  verify deliveries , and generate POD reports for specific routes.  To generate a POD report, follow the instructions below.\nNote: you must run reports on the computer; reports are not available on the mobile app.\nFrom the Dispatch Console :\n1.  Click Reporting > Archive.\n2.   Use the calendar to select the desired date and if needed add other search options (route, address, tracking number, etc.).  Click \"Search.\"\n3.  A list of your routes from the selected date will populate.  Choose the desired route by clicking on the route number.\n4.  Click “Generate Report.”\nThe report is available in three file formats: PDF, CSV, and XLS.  Click the link for the file type you want to download."
+  },
+  {
+    "id": "13631018041623",
+    "title": "Beans DRO: Route Planner Quickstart Guide",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13631018041623-Beans-DRO-Route-Planner-Quickstart-Guide",
+    "created_at": "2023-04-05T07:55:16Z",
+    "updated_at": "2023-06-08T20:40:27Z",
+    "content": "On average, each route you run as a contractor can cost between $50,000 to $90,000 per year, and decreasing margins is making this overhead more painful for contractors across the board. Coupled with the rising cost of fuel and other consumables such as tires, and the rising cost of labor, what can you do to claw back these expenses and boost profitability?\nBeans Route Planner is a tool that leverages real-time data from your FedEx Ground operation and enables you to virtually reconfigure and test new ways of running your routes, allocating drivers, and finding your perfect balance of operational efficiency and profitability using AI that accounts for your unique business needs,  and suggests alternative configurations that can improve your bottom line.\nFor Example, you can use the Route Planner to take existing stops across your operation, specify driver parcel capacities and shift lengths to tweak your operation accordingly by redrawing your Anchor Areas in RouteSmart, enabling you to drop routes and save tens of thousands of dollars per year per route in overhead costs.\n1. Open the Route Planner by going to Settings and selecting  Route Planner.\n2. In the  Route Planner , select the route(s) you want to optimize, and select  Next .\n3. If this is your first time using the Route Planner, or if you are optimizing a new set of stops, select  New Configuration , then select  Next . You should then see the stops appear on the screen.\n4. Select your drivers.\nHere, you may either select existing drivers from your Beans account,  OR , you can create  Floating Drivers.\nFloating Drivers  represent a  Driver Type  whose parameters you can adjust.\nYou can create different types of  Floating Drivers  by selecting the  Add More  option below.\nFor example, one type of floating driver can have a total  Count  of 5 (5 drivers of this type), and a  Capacity  of 100 (100 package/piece limit per driver).\nNext, define the  Shift Length  and  Shift Start  times.\n5.  Flex Start  and  Flex End\nFlex Start/End   allows the driver to start or end from anywhere on the map.\nIf your drivers are starting and ending at the warehouse, leave these  Off.\nUse the Algorithm Controls to account for traffic, or bias the algorithm to reduce routes and balance the parcel volume between drivers. Once you have found a configuration that you like, you can save it for future use and apply it to different routes on different days, which you can leverage to modify your weekly plans in FedEx DRO.\n6.  Optimization Parameters\nRoute Planner allows you to optimize for  Time, Distance,  and  Cost.\nFor FedEx Ground Contractors, start by enabling  Time Windows .\nThis will have the system account for pickup and drop off  Time Constraints  while optimizing.\nThe routes or manifests must have  Time Windows  specified within the file for this to work.\nUse the  Sliders  to adjust for  Traffic Speed ,  Load Balancing , and  Route Reduction .\nTraffic   Speed  will increase the amount of time per stop, which will reduce the amount of stops the driver can do in the given  Shift Length .\nBalance Factor  will force the system to create routes with a more even distribution of pieces, at the expense of overall optimization.\nReduce Routes  will force the system to optimize the stops to the fewest number of routes possible.\nStop   Penalty\nStop Time  refers to the amount of time in  seconds  that the driver will spend at each stop. This  Dwell Time  is factored into the optimization.\nAlgorithm  allows you control  how long  and  how many time  s  the system will take to come to the most optimal solution to the specified parameters.\nTimeout Seconds  controls how long in seconds the system will run solutions.\nFor example, a limit of 100 seconds will give the system a  maximum time  of 100 seconds to process the request. It may take less than 100 seconds, but never more than 100 seconds.\nSolution   Count  refers to the  maximum  number of different solutions the system will process within the given  timeout  limit.\n7.  Cost Parameters\nYou can optimize for cost efficiency using the Route Planner.\nSelect  Cost,  and define your cost parameters for your operation.\n8.  Running DRO\nOnce you have set your desired parameters, Select  Run DRO .\nYou will see the result on the map, and the breakdown of  routes ,  time ,  distance , and  cost  on the right side of the map.\n9.  Re-Running DRO and Changing Parameters\nAfter running DRO, you can  edit  your parameters and re-run the DRO to find different solutions.\nIn the example below, we increased the  Capacity  of the driver to 100 pieces, therefore the total number of routes has  decreased .\nSelecting  Show stop numbers in the map  will display sequence numbers on all stop pins in the optimized area.\nSelecting  Show driver assignment  will display the driver assigned to each route. If none are assigned, you can use the dropdown menu to select and  assign drivers . If you are a FedEx Ground contractor, this is not necessary and should be  avoided  if you are running DRO on  active routes .\nNow more than ever, finding ways to reduce running costs and support your bottom line is crucial. Reducing your route count is an important step towards profitability given rising costs of fuel, consumable goods, and labor.\nReach out to our team today to learn how our cutting edge AI powered Route Planner with its tunable algorithm and custom Work Areas can take your operation’s real time data and show you how to drop routes and save!"
+  },
+  {
+    "id": "13623725659415",
+    "title": "Managers: Turn on Safety Notifications",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13623725659415-Managers-Turn-on-Safety-Notifications",
+    "created_at": "2023-04-04T21:26:02Z",
+    "updated_at": "2024-03-07T18:09:07Z",
+    "content": "If you have Safety Training enabled as part of your Beans Route account, you can receive daily and/or weekly summaries about your drivers’ safety status (e.g., passing or failing) and course(s) to be completed.  To receive these notifications, follow the steps below.\nFrom the Dispatch Console :\n1.  Click Settings > Preferences > Notifications > Team.\n3.  Select which notifications you want to receive and how you want to receive them (e.g. push notification, SMS text, and/or email).  Click \"Save.\"\n[ The last notification setting “Employee Information Collection Notifications” is not currently active and you should toggle those receipt options to off. ]\nIf you are receiving notifications and do NOT want them, please follow the steps above and toggle off the receive notifications options.\nCurrently the notifications are a global setting which applies to the entire account.  This means we are not able to filter the notifications by warehouse/terminal."
+  },
+  {
+    "id": "13619310693655",
+    "title": "Managers:  Adding Vehicles to your Beans Route account (FXG)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13619310693655-Managers-Adding-Vehicles-to-your-Beans-Route-account-FXG",
+    "created_at": "2023-04-04T18:54:44Z",
+    "updated_at": "2024-07-24T20:03:33Z",
+    "content": "Your vehicles can be added to your Beans Route account, and you can enter maintenance records and odometer readings for  completing Monthly Maintenance Reports  (MMRs).\nThe easiest way to get your vehicles into your account is to send a screenshot of your Schedule B to  support@beans.ai .  Our team will enter the vehicles for you.\nYou can enter your vehicles manually by following the steps below.\nFrom the Dispatch Console :\n1.  Assets > Vehicles.\n2.  Click the “add vehicle” button.\n3. Enter vehicle details and select the warehouse by using the dropdown list.  Click “add vehicle.”\n4.   The vehicle will generate in the list."
+  },
+  {
+    "id": "13596949465495",
+    "title": "Managers: Turn on Route Notifications",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13596949465495-Managers-Turn-on-Route-Notifications",
+    "created_at": "2023-04-03T23:48:48Z",
+    "updated_at": "2024-03-07T18:03:59Z",
+    "content": "Beans Route has notifications for route information: pick-up window warnings, pick-up window closed, and problematic exceptions codes (02, 04, 16, 17, and 27).  To receive these notifications, follow the steps below.\nFrom the Dispatch Console :\n1.  Click Settings > Preferences > Notifications > Route.\n2.  Select which notifications you want to receive and how you want to receive them (e.g. push notification, SMS text, and/or email).  Click Save.\nIf you are receiving notifications and do NOT want them, please follow the steps above and toggle off the receive notifications options (e.g., SMS, PUSH, EMAIL).\nCurrently the notifications are a global setting which applies to the entire account.  This means you are not able to filter the notifications by warehouse/terminal at this time."
+  },
+  {
+    "id": "13589545591319",
+    "title": "Managers: Create a Beans Route account (FXG)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13589545591319-Managers-Create-a-Beans-Route-account-FXG",
+    "created_at": "2023-04-03T19:10:57Z",
+    "updated_at": "2023-04-03T19:11:50Z",
+    "content": "1. Go to  beansroute.ai  and click the “create account” link.\n2.  Enter your email address and create a password.  Click the “create account” button.  (HINT: be sure to record the created password) .\n3.  Select your business type from the dropdown list and click “next.”\n4.  Click “select” to choose your plan and then click “next.”\n5.  Enter your business details and click “next.”\n6.  Enter your credit card information and click “next.”\n7.  Read and accept the terms and conditions.  Click “subscribe.”\n8.  Click “Launch Dispatch Manager” to open your Beans Route account."
+  },
+  {
+    "id": "13324722455831",
+    "title": "Managers: Warehouses",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13324722455831-Managers-Warehouses",
+    "created_at": "2023-03-23T21:19:01Z",
+    "updated_at": "2023-10-24T21:22:09Z",
+    "content": "Beans Route will create a warehouse location for your terminal(s) based on synced routes.  You can then add a warehouse name and domicile information.  You can also create additional warehouses as needed.\nFrom the Dispatch Console :\n1.  Go to Settings > Warehouses\nTo add a name and domicile to existing warehouse :\n1.  Click on the row to highlight it.  Click “Modify Warehouse.”\n2.  Type in the name and domicile information and click “Save.”\nTo add a new warehouse :\n1.  Click “Add Warehouse.”\n2.  Type in the name and domicile information.  As you start to type the address, the location pin should populate with the address info.  Click on the address pin.\n3.  Click “Save.”"
+  },
+  {
+    "id": "13272274225303",
+    "title": "Managers: Modify Driver Availability (timesheets)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13272274225303-Managers-Modify-Driver-Availability-timesheets",
+    "created_at": "2023-03-21T22:06:51Z",
+    "updated_at": "2023-10-24T21:28:31Z",
+    "content": "Beans Route timesheet allows you to set the availability for drivers to assist in creating your schedule.\nFrom the Dispatch Console\n1.  Click Settings > Timesheet > Driver View.\nTo remove days from availability :\n1.  Select the driver to modify by clicking on the row to highlight it.  Click the “Modify Availability” button.\n2.  Select the day(s) to be removed by clicking the date icon(s) on the calendar.\ne.g., to remove all Saturday shifts, click on the first available Saturday on the calendar. On the Modify Shift menu, check “Apply to all similar” and click “Delete.”  Then click “Save”.\ne.g., to remove a single day, click the date on the calendar, click “Delete,” then click “Save.”\nTo add days to availability :\n1.  Select the driver to modify by clicking on the row to highlight it.  Click the “Modify Availability” button.\n2.  Select the date to add by clicking the date on the calendar.\n3.  On the Add Shift menu, check “This is a recurring shift,” select the time period for the modification (\"For the next 12 weeks\" is most common), select all the days of the week you wish to add, then click the “Add” button.\nClick “Save.”"
+  },
+  {
+    "id": "13242104137239",
+    "title": "Managers: Enabling Pre and/or Post Vehicle Inspections",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/13242104137239-Managers-Enabling-Pre-and-or-Post-Vehicle-Inspections",
+    "created_at": "2023-03-20T21:06:24Z",
+    "updated_at": "2023-10-24T21:27:45Z",
+    "content": "With Beans Route you can have drivers complete pre and/or post trip inspections of their vehicles.\nTo Enable Pre-trip Inspection :\nFrom the Dispatch Console:\n1.  Go to Settings > Preferences > Inspection\n2.  Check the box for pre-inspection to open the list of inspection options.\n3.  Choose the items you wish the driver to inspect by clicking the checkbox.\n4.  When you have selected all items from the list, click the “save” button below the item list.\n5.  Return to the top of the page and click the “save” button under the enable inspection list.\n6.  You can “gate” your drivers from clocking in until the vehicle inspection has been completed. To prevent clock in prior to completing inspection, check the box “ Hide route if a driver has not completed inspection .”\n7.  Repeat the process outlined above to enable post-inspections.  To prevent clock out prior to completing post-inspection of the vehicle, check the box “ Do not allow driver to clock out if the inspection is not completed. ”\nOnce inspections are enabled for your account, drivers will complete the inspection on their app by going to the “Hub” and clicking the “Start Inspection” button."
+  },
+  {
+    "id": "12733111071767",
+    "title": "FedEx Ground: Stand up Process for Beans Route Account",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/12733111071767-FedEx-Ground-Stand-up-Process-for-Beans-Route-Account",
+    "created_at": "2023-02-28T00:06:47Z",
+    "updated_at": "2024-04-30T18:52:46Z",
+    "content": "Prior to your standup date, you should complete Steps 1 and 2 below.    The remaining Steps will be completed on the day of standup and after.\n1 .  Create your Beans Route account   :\nGo to  beansroute.ai  and click the link for “create account.”    Fill out the required information and enter a valid credit card number.\nNOTE: Be sure to write down the account password you create for future reference.\n2 .  Add your BC and drivers   :\na.  If you are purchasing your business from a contractor who also uses Beans Route:\nProvide your Beans Route Account Executive or Customer Support Manager (CSM) with the seller’s business name and all employees who will be joining your new business.    Beans Route will move the employees from the seller’s account to your new account.    Transferred drivers will remained signed into their Beans Route driver app and can see their new routes as soon as you assign them to a route.\nb.  If you are purchasing your business from a contractor who does not use Beans Route, you will need to enter your drivers into your Beans Route account.\nHow to add drivers to your Beans Route account\nNOTE:  Newly added drivers will then sign into their Beans Route app.\nDrivers’ initial login to Beans Route app\nDrivers will not see any route information until you have assigned them to a route   (see instructions for route assignment below)  .\n3.   Get your account syncing with Beans Route   :\nOnce you gain access to your MyGroundBiz account and are able to sign into your FCC, you will need to sync your FXG data with your Beans Route account.    Normally FXG gives new CSPs access to MyGroundBiz and FCC around midnight on the day of the standup.\nHow to sync your FXG account with Beans Route\nAfter 5:00 a.m. on the day of your standup you should be able to see the routes for your service area in FCC.    If you have synced your FCC data with Beans Route, your routes for the day should populate on the Routes page in your Dispatch Manager.\nIf the routes are not showing up in Beans Route, but you can see them in your FCC, you can manually upload the manifests for the first day.    Beans Route should sync normally thereafter.    If your Beans Route account is not syncing by the Monday after your standup, reach out to your CSM or call Beans Route Support at (415) 888-9059.\nUpload a manifest to Beans Route\n4.   Assign your drivers to their route for the day   :\nIn order for your drivers to be able to use their Beans Route driver app, you will need to assign them to a route.    Beans Route gathers the Star V scanner data and the route information on the Routes page in Beans Route will show you who is assigned to a route based on the driver logging into the FXG scanner.    However, if you don’t see a pad and pen icon beside the driver’s name, the driver is NOT assigned via Beans Route.\nAssign driver to a route\n5.   Get your vehicles into Beans Route   :\nOnce your Schedule B is finalized (normally a few days after standup), send a screenshot of the Schedule B page from MyGroundBiz.    Beans Route will get your vehicles entered into your account so you can enter maintenance records and complete your MMRs.\nNOTE: When taking the screenshot be sure to include all of the information; do not crop the image.\n6.   Setup an Onboarding Session with your Customer Service Manager   :\nIn addition to learning to use Beans Route yourself, you also want to train your BCs to use the dispatch functions of Beans Route and the Beans Route Driver App so they can instruct your drivers on using the app.    Your Customer Service Manager will schedule a zoom meeting to teach you and your BCs to use Beans Route.    Follow-up meetings can be scheduled as needed.\n7.   Help is at hand   :\nOn the day of your standup, your CSM will be available by phone to help you with any issues.    Thereafter, you can reach out to Beans Route Support in three ways.\nPhone : (415) 888-9059\nEmail :     support@beans.ai\nChat : you can access the chat feature directly from your Beans Route Dispatch Manager on your computer."
+  },
+  {
+    "id": "12507205392151",
+    "title": "Managers: How to use Archive to Reopen a closed route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/12507205392151-Managers-How-to-use-Archive-to-Reopen-a-closed-route",
+    "created_at": "2023-02-17T23:02:28Z",
+    "updated_at": "2023-10-25T21:02:49Z",
+    "content": "1.  In the Dispatch Console on the Routes page, verify which route was accidentally closed.\nClick the “Add Route” button.\n2.  Name the route (*this should be different from the name of the route that is being copied) , add the date, and select the desired driver and warehouse.  Click “Add Route.”\n*For example, if you are copying route 43, you would want to name the copied route “43x” or something similar\n3. Navigate to the Archive page, fill out the information (date and name) of the route that you need to re-open.\nClick the “Search” button.\n4. Click on the route that you want to re-open.\n5. Select all the stops by clicking the “Select All” icon.\n6. Select the route that you would like to copy the stops to (route added earlier).\nClick “Make a Copy”.\n7. On the Routes page, click into the replacement route and click “Group Units”.\n8. Done. Now just verify that a driver is assigned to the route.\n9. Be sure to close any routes that you have manually opened the next day."
+  },
+  {
+    "id": "11492510288663",
+    "title": "Managers: How to Close a Route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/11492510288663-Managers-How-to-Close-a-Route",
+    "created_at": "2023-01-06T19:35:59Z",
+    "updated_at": "2023-05-22T19:52:41Z",
+    "content": "If you manually  create a route  or  upload a manifest , at the end of the day you will need to close those routes.  The closed route will be removed from your Routes page, but can still be accessed via Archive as needed.\nFrom the Dispatch Console:\n1.  On the Routes page, click on the row of the route you want to close to highlight it.\n2.  Click the \"Modify Route\" button on the right.\n3.  If there is no warehouse assigned to the route, add a warehouse from the dropdown list.\n4.  Change the route status from “open” to “closed” and click Save.\nFrom the Mobile App:\n1.  Click the Dispatch tab which defaults to your list of routes for the day.\n2.  Click on the row of the route you want to close to highlight it and then click the blue circle with the pencil icon.\n3.  If there is no warehouse assigned to the route, add a warehouse from the dropdown list.\n4.  Change the route status from “open” to “closed” and click Save."
+  },
+  {
+    "id": "11470853429911",
+    "title": "Drivers:  Work Schedule and Time Off Requests",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/11470853429911-Drivers-Work-Schedule-and-Time-Off-Requests",
+    "created_at": "2023-01-05T22:17:28Z",
+    "updated_at": "2023-05-15T05:52:00Z",
+    "content": "If your company uses Beans Route timesheets to create driver schedules, you can see the days you are scheduled to work and your assigned routes.\nTo see your work schedule:\n1.  In your app, click on the Hub.\n2.  Click on the Calendar tab which will display the current month.\nDays you are scheduled to work will have blue box with your assigned route number.\nDays you are not scheduled to work will have a yellow box with \"TBD.”\nIf you have requested a day off, there will be a grey box with “LR” which stands for \"leave request.\"  Once the request is approved by your manager, the box will be green with “LR.”\nIf your company allows drivers to request time off using Beans, you can do so via the app.\nTo request a day off:\n1.  In your app, click on the Hub and then click on the Calendar tab.\n2.  Use the arrow button to move the calendar to the correct month.\n3.  Choose the day(s) for your request by clicking on the date(s) and confirm the leave request.\n4.  Your manager will receive an in-app notification and an email with your leave request \"LR.\"  Once the request is approved the grey box with “LR” with change to a green box with “LR.”  If your request is denied, you will see a red box with \"LR.\""
+  },
+  {
+    "id": "11129441570967",
+    "title": "Managers: Transfer Stops in Dispatch",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/11129441570967-Managers-Transfer-Stops-in-Dispatch",
+    "created_at": "2022-12-21T20:20:27Z",
+    "updated_at": "2023-10-25T21:03:33Z",
+    "content": "From the Dispatch Console :\n1.  Identify the routes you are transferring to and from.  If necessary,  add a route  to receive the transfers.\n2.  Click on the route number you are transferring from to open the detailed view.\n3.  Click on the stops to be transferred in the list or click on the pins on the map.  Each chosen stop will be highlighted in grey in the list view.\n4.  Confirm the number of stops to be transferred by checking the number of rows selected at the top of the list view.  When all stops to be transferred are highlighted, click the “Modify Stop” button.\n5.  From the dropdown list choose the route to receive the transferred stops and click “Save.”\nFrom the Mobile App :\n1.  Click on the Dispatch tab. Identify the routes you are transferring to and from.  If necessary,  add a route  to receive the transfers.\n2.  Click on the route number you are transferring from to open the detailed view.\n3.  Click on the stops to be transferred in the list or click on the pins on the map.  Each chosen stop will be highlighted in grey in the list view.\n4.  Confirm the number of stops to be transferred by checking the number of rows selected at the top of the list view.  When all stops to be transferred are highlighted, click the blue circle with the pencil icon to open the “Modify Stop” menu.\n5.  From the dropdown list choose the route to receive the transferred stops and click “Save.”"
+  },
+  {
+    "id": "10746336090519",
+    "title": "Beans Route Workaround for FedEx Server Outages (MOBILE APP)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/10746336090519-Beans-Route-Workaround-for-FedEx-Server-Outages-MOBILE-APP",
+    "created_at": "2022-12-06T06:17:01Z",
+    "updated_at": "2024-03-05T01:27:07Z",
+    "content": "From the Mobile App :\nCREATE YOUR ROUTE :\n1.  Click on the Hub tab\n2.  Name the Route (e.g., 101x) and click “create route.”\nADD STOPS :\n1.  Click on the deliver tab.\n2.  Click the black pin with the plus sign in the lower left-hand corner.\n3.  Choose “Scan Label” which will open the camera on your phone.\n4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab.\n5. If scanning the label does not work, you can manually add the stop by choosing “Enter Address” and type in the address and tracking number.\nOPTIMIZE YOUR ROUTE :\n1.  Expand or contract the map so all of the pins are clearly visible.\n2.  Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.\n3.  Choose a first and last stop and click the “Optimize” button.\n.         .\nSCAN PACKAGES/POD :\n1.  Click the Settings tab\n2.  Change the POD setting from “If Needed” to “Full.”  Go back to the Deliver tab.\n3.  Click the checkmark on the address card to mark a stop as delivered.\n4.  The app will open the “Complete Stop” window which is preloaded with all the FedEx Reason Codes.  You can take a photo of released packages. If a signature is required, the customer can sign on your phone.\n.     .     .\n5.  At the end of the day, your BC can  generate a digital proof of delivery report  which will include photos and signatures of your deliveries in the Dispatch Console."
+  },
+  {
+    "id": "10745953434519",
+    "title": "FedEx Outage Workaround",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/10745953434519-FedEx-Outage-Workaround",
+    "created_at": "2022-12-06T05:52:31Z",
+    "updated_at": "2022-12-13T16:41:28Z",
+    "content": "Create & Assign a Driver to a Route:\nFrom the Dispatch Console :\n1.  On the routes page, click on the row of the route you want to assign (row will be highlighted in grey).  Under \"Thing That You Can Do,\" click \"Modify Route.\"\n2.  Select the driver from the dropdown list.\n3.  Click “Save.”\nFrom the Mobile App :\n1.  Click the “Dispatch” tab.\n2.  Click on the row of the route you want to assign (row will be highlighted in grey).   Click on the blue circle with the pencil icon.\n.\n3.  Select the driver from the dropdown list.\n.\n4.  Click “Save.”\nScan a Package:\nHow to scan a package\nFrom the Mobile App:\n1.  Click on the deliver tab.\n2.  Click the black pin with the plus sign in the lower left hand corner.\n3.  Choose “Scan Label” which will open the camera on your phone.\n4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab.\n.\n5.  If scanning the label does not work, you can manually add the stop by choosing “Enter Address”. Type in the address and tracking number and click \"done\".\n.         .\nVideo:  How to scan a package - iOS\nHow to Optimize your Route:\nWith Beans Route you can customize your delivery route by optimizing multiple areas, and you can choose the number of stops to be included in each area.\nFrom the Mobile App :\n1.  In the Deliver tab, expand or contract the map so the pins are clearly visible. Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.\n2.  Choose a final stop and click the “Optimize” button.\n3.  Repeat the process for each area. The numbers will generate sequentially.\nVideo:   How to Use Lasso+/Multi Lasso\nHow to Use Digital Handsheets:\nFrom the Mobile App :\n1.  Click the Settings tab\n.\n2.  Change the POD setting from “If Needed” to “Full.”    Go back to the Deliver tab.\n3.  Now when you click on a stop to mark it as delivered, the app will open the “Complete Stop” window which is preloaded with all the FedEx Reason Codes.  If a signature is required, the customer can sign on your phone.\n4.  At the end of the day, your BC can generate a digital “green/hand sheet” of your deliveries in the Dispatch Console.\nNOTE: To turn off POD follow the steps above and change POD to \"if needed.\"\nHow to Generate a Digital Handsheet:\nFrom the Dispatch Console :\n1.  On the Routes page, click on the box with desired route number to open the detail page for the route.\n2.   Under “Things That You Can Do,” click “Generate Report.”\n3.  The app will then create a digital proof of delivery report for the route and download the report in three formats: PDF, CSV, XLS.  You can download the report for printing or email."
+  },
+  {
+    "id": "10022296840087",
+    "title": "Managers: Creating a Schedule in Timesheets",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/10022296840087-Managers-Creating-a-Schedule-in-Timesheets",
+    "created_at": "2022-11-05T00:41:07Z",
+    "updated_at": "2024-07-26T16:48:41Z",
+    "content": "In Beans Route you can create a schedule for your drivers in Timesheets.  When you create a schedule in timesheets, the drivers will be assigned to their routes automatically, and drivers can view their schedule in the calendar located in the Hub on their mobile app.\nTo create a schedule, follow the instructions below.\nFrom the Dispatch Console :\n1.  Click Assets > Timesheets which will open the timesheet to the default Route View where you will create your schedule.\n2. Your routes are listed in the left column and the days of the week across the top of the table.  Use the dropdown menu to select the day of the week to begin your schedule.  Select the route you wish to schedule and then click the bubble for the day you wish to schedule.\n3.  Use the dropdown menu and select the driver you wish to schedule.\n4.  Repeat the process to schedule each route for each day of the week.  Once you have completed the schedule, you can copy and paste the same schedule to future weeks.  Click the “two boxes” icon located above the table to copy the schedule.\n5.  Click “No” to overwrite existing shifts to copy the schedule to the clipboard. Click the arrow above the route list to move the calendar to the next week.\n6.  Click the \"two boxes\" icon and then click \"yes\" to overwrite existing shifts to paste the schedule you have created to the calendar.\n7.  You can copy and paste the same schedule for the next six weeks by repeating steps 4 - 6.\nFor call-outs or last minute changes to the schedule , you can change the drivers right from the routes page with no need to adjust your timesheet.\n1.  Choose the route and click the “pad and pencil” icon after the scheduled driver’s name to open the dialogue box.\n2.  From the dropdown list choose the replacement driver and click “save.”"
+  },
+  {
+    "id": "9538181797143",
+    "title": "Drivers: Completing Safety Training",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9538181797143-Drivers-Completing-Safety-Training",
+    "created_at": "2022-10-13T22:37:08Z",
+    "updated_at": "2023-10-31T16:16:12Z",
+    "content": "Drivers are assigned one safety training course per month and can complete the course via the Beans Route driver app.  Courses are assigned on the first of the month and must be completed before the last day of the month.  Courses consist of a short video module and then a series of questions about the module.\nNOTE: You can complete your safety training courses on the computer by going to the  Safety Forward  webpage and following the login instructions.\nFrom the Mobile App :\n1. In the app, go to the Hub.  The yellow \"Safety Training\" status bar will show if you have trainings due.  If not, the bar will simply read “Safety Training.”  To complete safety training courses, click the yellow Safety Training bar to see a list of the courses to complete.\n2.  Select the course to complete, click the blue “Start Training” button, and agree to the conditions by clicking “continue.”\n3.  The app will then take you directly to the Safety Forward website and launch the course.\n4.  Watch the video and then take the associated quiz.  When you have completed the quiz, click \"close\" to return to the Hub.\nNOTE: You can also complete your safety training courses on the computer by going to the  Safety Forward  webpage and following the login instructions above."
+  },
+  {
+    "id": "9526775461143",
+    "title": "Managers: Correcting Location Pins in Archive",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9526775461143-Managers-Correcting-Location-Pins-in-Archive",
+    "created_at": "2022-10-13T15:22:21Z",
+    "updated_at": "2023-04-07T10:38:48Z",
+    "content": "From the Dispatch Console :\n1.  Click “Archive.”\n2.  Choose the search criteria (e.g., date, route name, tracking number, etc.).\n3.  Click “Search.”\n4.  Click on the desired route number to open the detailed view.\n5.  From the manifest choose the stop/address to be corrected by clicking on the row.  The pin on the map will show the address info.\n6.  Zoom in on the map to see the location (mint) and stop close (red) pins.  Click the “Satellite” button.\n7.  Drag the location pin to the stop close pin and click “Save.”\nNOTE:  When you move a pin location in archive and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app."
+  },
+  {
+    "id": "9508555688343",
+    "title": "Managers: How to Turn On Safety Training for Drivers",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9508555688343-Managers-How-to-Turn-On-Safety-Training-for-Drivers",
+    "created_at": "2022-10-12T19:14:23Z",
+    "updated_at": "2024-03-07T18:16:53Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Settings > Preferences.\n2.  Choose \"Safety.\"  Click “Turn on safety training.”\n3.  Click Settings > Drivers and Dispatchers.\n4,  Click the circle with checkmark icon to highlight the entire list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver).\n5.  Click \"Modify Driver.\"\n6.  Check the box \"Enroll in Safety Training.\"  Click \"Save.\"\n7.  Drivers will be enrolled in safety and you will see a notification under each driver which says “Safety Training is turned on.”\nFrom the Mobile App :\n1.  Click the Dispatch tab and then click the Menu Bars on the top right of the screen.\n2.  Click Settings > Preferences.\n3.  Choose Safety and click “Turn on safety training.”\n4.  Click Settings > Drivers and Dispatchers.\n5.  Click the circle with checkmark icon to highlight the list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver).\n6.  Click the blue circle with the pencil icon to open the \"Modify Driver\" page and check the box \"Enroll in Safety Training.\"  Click \"Save.\"\n7.  Drivers will be enrolled in safety and you will see a notification under each driver which says “Safety Training is turned on.”\nNOTE: Drivers can now complete all safety training courses directly from the Beans Route mobile app.  See the article  Drivers: Completing Safety Training ."
+  },
+  {
+    "id": "9308216424471",
+    "title": "Managers: How to Sync your Beans Route Account (FXG)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9308216424471-Managers-How-to-Sync-your-Beans-Route-Account-FXG",
+    "created_at": "2022-10-03T21:41:16Z",
+    "updated_at": "2023-08-23T14:46:50Z",
+    "content": "1.  Sign into your MyGroundBiz account and click the link for FCC.\n2.  Click the gear wheel in the upper right-hand corner to open FCC settings.  Click the tab for “Data Subscriptions”\n3.  Choose your Service Area from the dropdown menu; choose Beans Maps as the vendor; click all three boxes: Delivery Manifest, Pickup Manifest, and Work Area Summary; click “Save.”\nWait five minutes after saving the info in FCC, and then sign into your Beans Route account.\nIn the Dispatch Console:\n1.  Click Settings > Fedex Integration\n2.  Enter your Fedex ID# and click Verify ID. At the top of the screen review the information and if FXG ID# and number of work areas are correct, click “Yes.”\nThe button under your ID# will change to “Sync Manifest,” and you should click this button. Your routes will populate on the Routes page; give it at least 15 minutes after clicking “Sync Manifest” for the routes to show up.\nNOTE: If you are a new FXG Standup, you will not have access to your FCC account until after midnight the day before your standup.  You should share the data in FCC and enter your info in Beans Route after midnight but prior to 5:00 a.m. on the standup date or your routes may not sync."
+  },
+  {
+    "id": "9250932597015",
+    "title": "Managers: How to Update Your Payment Method",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9250932597015-Managers-How-to-Update-Your-Payment-Method",
+    "created_at": "2022-09-30T19:41:01Z",
+    "updated_at": "2023-03-23T17:06:49Z",
+    "content": "1.  Go to  beansroute.ai  and sign into your account.\n2.  Beneath the \"Launch Dispatch Manager\" button is the credit card on file for your account (last 4 digits)\n3.  Click the link “Update payment method.”\n4.  Enter your credit card information.\n5.  Select “Save Payment.”\n6.  Confirm the last four digits of the new credit card are displayed as “Current Card on payment profile.”"
+  },
+  {
+    "id": "9223116019095",
+    "title": "Managers: Create a Route and Add Stops",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9223116019095-Managers-Create-a-Route-and-Add-Stops",
+    "created_at": "2022-09-29T17:58:02Z",
+    "updated_at": "2022-09-30T06:07:18Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console on the Routes page, click the “Add Route” button.\n2.  Name the route, and if needed select driver and warehouse.  Click “Add Route.”\n3.  In the routes list, click the box of the desired route to open the detailed view.\n4.  Click “Add Stop,” type in the address and select the type of stop (e.g., pickup or delivery). Scroll down and click “Add Stop.”\n5.  Once all stops are added, click “Optimize Route,” and choose “Custom” from the start dropdown list.\n6.  Type in the address for the start of the route (first stop) and the end of the route (last stop); click “Optimize.”\nTo Move a Stop Up or Down in the Route :\n1.  Click the three bars icon (second from the end).\n2.  Click on the stop you want to move and drag it to the desired location in the list."
+  },
+  {
+    "id": "9199791918359",
+    "title": "Managers: Generate a Timesheet Report (STD file)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/9199791918359-Managers-Generate-a-Timesheet-Report-STD-file",
+    "created_at": "2022-09-28T19:04:59Z",
+    "updated_at": "2024-07-25T00:11:51Z",
+    "content": "We recommend using the STD version of the timesheet report which gives you clock in, clock out, and total hours for each driver. The PDF, CSV, and XLS reports give only the total hours. You choose the time period for the report.  *To deduct breaks from daily hours follow instructions below (steps 7 - 9) before generating the report.\nNOTE: You cannot generate reports from the mobile app.\nFrom the Dispatch Console :\n1.  Click Assets > Timesheets.\n2.  Click the box for “Driver View.\"\n3.  Click the “Generate Report” button.\n4.  Choose the date range for your report; click on the date line to open the calendar.  Optional: you may click the box for “use default route length to estimate when clock in or clock out times are missing.”\n5.  Click “Generate Report.”\n6.  Click the link for the report you wish to download.\nDeduct Breaks from Daily Hours\n7.  Click Settings > Preferences.\n8.  Click “Timesheets”\n9.  Turn on the option “Subtract break hours from paid hours in reports\" and click \"save\"\nUnderstanding the STD Timesheet Report\nClock in and clock out times are calculated in minutes using military time.  Using line #2 as an example on 5/28/22:  Xavian Washburn clocked in at 7:22 a.m. or 38 minutes before 8:00 a.m.  He clocked out at 17:10 p.m. or 10 minutes after 5:00 p.m.:\n8:00 a.m. to 5:00 p.m. = 9 hours\n38 minutes before 8:00 a.m. + 10 minutes after 5:00 p.m. = 48 minutes\nTherefore: Xavian Washburn worked a total of 9 hours and 48 minutes.\nThe total hours and paid hours are calculated in 1/10 of an hour.  A tenth of an hour is 6 minutes.  Using the example of Xavian Washburn, his total hours of 9.8 = 9 hours and 8/10 of an hour (8 x 6= 48)."
+  },
+  {
+    "id": "8914443936023",
+    "title": "Beans Route API: Where is documentation available?",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/8914443936023-Beans-Route-API-Where-is-documentation-available",
+    "created_at": "2022-09-16T04:05:40Z",
+    "updated_at": "2022-10-29T21:29:44Z",
+    "content": "The Routing API v1 documentation is available  here ."
+  },
+  {
+    "id": "7831874525847",
+    "title": "How to Optimize: Choosing First Stop",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/7831874525847-How-to-Optimize-Choosing-First-Stop",
+    "created_at": "2022-07-30T18:59:42Z",
+    "updated_at": "2024-07-24T20:27:04Z",
+    "content": "From the Dispatch Console :\n1.  On the Routes page, click on the desired route number to open the detailed view of the route.\n2.  Identify the desired first stop and then click the “Optimize Route” button.\n3.  Use the “Start” dropdown menu, choose “Custom”, and type in the address of the first stop.  The address pin will generate; click on the pin to select.\nClick \"Optimize.\"\nFrom the Mobile App :\n1.  Click the Dispatch tab, click on the desired route number to open the detailed view of the route.\n.\n2.  Identify the desired first top and then click the blue circle with the lightning bolt icon.\nUse the “Start” dropdown menu, choose “Custom”, and type in the address of the first stop.  Click the “Optimize” button."
+  },
+  {
+    "id": "7710165312151",
+    "title": "Managers: Upload an Ontrac Manifest",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/7710165312151-Managers-Upload-an-Ontrac-Manifest",
+    "created_at": "2022-07-25T19:12:02Z",
+    "updated_at": "2023-07-08T16:38:17Z",
+    "content": "From Fastrac.ontrac Account:\n1.  Sign into your fastrac.ontrac.com account.\n2.  Click Route Assignments.\n3.  From the dropdown list select your facility and RSP number.\n4.  Click the “Reports” button and then click “Driver Manifests.”\n5.  Select your RSP from the dropdown menu and click “OK.”\n6.  Choose the desired route from the dropdown menu and then click “View Report.”\n7.  Click the arrow next to the floppy disc icon and choose CSV; the manifest will download to your computer.\nFrom the Dispatch Console :\n12.  From the Dispatch Console on the Routes page under “Things That You Can Do,” click “Upload Manifest.”\n13.  Open the downloaded delivery manifest.\n14.  Under “Create a new route,” assign a route number, driver, warehouse, and click “Add New Route.”  The new route will now populate in your Routes list.\n15.  Under the “Match Columns for Upload” scroll to the bottom of the screen and click “Upload.”  Stops will now populate in the newly created route."
+  },
+  {
+    "id": "7407162601623",
+    "title": "Drivers:  How to Use Lasso+ (Multi Lasso)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/7407162601623-Drivers-How-to-Use-Lasso-Multi-Lasso",
+    "created_at": "2022-07-12T18:45:03Z",
+    "updated_at": "2024-01-22T18:45:38Z",
+    "content": "With Beans Route you can customize your delivery route by optimizing multiple areas, and you can choose the number of stops to be included in each area.\nFrom the Mobile App :\n1.  In the Deliver tab, expand or contract the map so the pins are clearly visible. Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.\n2.  Choose first and final stops and click the “Optimize” button.\n3.  Repeat the process for each area. The numbers will generate sequentially.\nVideo:   How to Use Lasso+/Multi Lasso"
+  },
+  {
+    "id": "7059382247319",
+    "title": "Managers: Are Drivers Enrolled in Safety",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/7059382247319-Managers-Are-Drivers-Enrolled-in-Safety",
+    "created_at": "2022-06-27T15:33:17Z",
+    "updated_at": "2023-10-24T21:24:39Z",
+    "content": "If you have enabled Safety Training through Beans Route, you can check to see how many drivers are enrolled and confirm who is enrolled in the program.\nFrom the Mobile App :\nTo see  how many  drivers are enrolled:\n1.  From the Dispatch tab, click the Menu Bars on the top right of the screen and choose Settings > Preferences > Safety.\nTo see  who  is enrolled:\n2.  Click the Menu Bars on the top right of the screen and choose Settings > Drivers and Dispatchers.\nThe driver list will indicate which drivers are enrolled in safety.\nVideo:   How to see if Drivers are enrolled in Safety"
+  },
+  {
+    "id": "6989993947671",
+    "title": "Managers: Assign a Secondary Driver/Helper to a Route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/6989993947671-Managers-Assign-a-Secondary-Driver-Helper-to-a-Route",
+    "created_at": "2022-06-23T20:54:14Z",
+    "updated_at": "2023-05-26T07:48:53Z",
+    "content": "From the Dispatch Console :\n1.  On the routes page, choose the route and click on the “pad & pencil” icon next to the primary driver’s name.\n2.  Change Driver Type to “Secondary Drivers & Helpers” and select the secondary driver from the dropdown list.  Click “Save.”\nFrom the Mobile App :\n1.  Click the “Dispatch” tab.  Choose the route and click on the “pad & pencil” icon next to the primary driver’s name.\n2.  Change Driver Type to “Secondary Drivers & Helpers” and select the secondary driver from the dropdown list.  Click “Save.”\n.\nVideo:   Assign a Secondary Driver/Helper to a Route"
+  },
+  {
+    "id": "6939640758551",
+    "title": "Managers: Display Preference - Set Warehouse Filter",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/6939640758551-Managers-Display-Preference-Set-Warehouse-Filter",
+    "created_at": "2022-06-21T23:04:50Z",
+    "updated_at": "2022-07-12T18:59:41Z",
+    "content": "If you operate from more than one warehouse, you can set a filter to show you all of your routes or from a single warehouse.  If all of your routes are not shown on the routes page, check your filter first following the steps below.\nFrom the Dispatch Console :\n1.  In the Dispatch Console: Settings > Preferences.\n2.  Choose \"Display Preference.\"\n3.  From the dropdown list choose “All” or a single warehouse to display on the routes page.  Click \"Save.\"\nFrom the Mobile App :\n1.  Click the Dispatch tab.  Click the Menu Bars on the top right of the screen.\n2,  Click Settings > Preferences\n3.  Choose Display Preference\n4.  From the dropdown list choose “All” or a single warehouse to display on the routes page.  Click \"Save.\"\nVideo:   Display Preference - Set Warehouse Filter"
+  },
+  {
+    "id": "6376359508119",
+    "title": "Drivers: How to Add a Stop/Scan a Package - iOS",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/6376359508119-Drivers-How-to-Add-a-Stop-Scan-a-Package-iOS",
+    "created_at": "2022-05-27T18:18:42Z",
+    "updated_at": "2023-04-18T16:20:05Z",
+    "content": "How to scan a package\nFrom the Mobile App:\n1.  Click on the deliver tab.\n2.  Click the black pin with the plus sign in the lower left hand corner.\n3.  Choose “Scan Label” which will open the camera on your phone.\n4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab.\n.\n5.  If scanning the label does not work, you can manually add the stop by choosing “Enter Address”. Type in the address and tracking number and click \"done\".\n.         .\nVideo:  How to scan a package - iOS"
+  },
+  {
+    "id": "5125615088151",
+    "title": "Managers: Upload a Manifest FXG",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/5125615088151-Managers-Upload-a-Manifest-FXG",
+    "created_at": "2022-03-30T17:24:45Z",
+    "updated_at": "2024-03-07T18:12:53Z",
+    "content": "1.  From your FCC download the Excel (.xls) file of the Delivery Manifest for the route to be uploaded.\n2.   From the Dispatch Console  on the Routes page under “Things That You Can Do,” click “Upload Manifest.”\n3.  Open the downloaded delivery manifest.\n4.  Select “Create a new route,” assign a route number*, driver, warehouse, and click “Add New Route.” The new route will now populate in your Routes list.  (*suggestion: add a letter to the route number to indicate an uploaded route as opposed to a synced route)\n5.  Confirm the route number and click \"next.\"\n5.  Scroll to the bottom of the screen and click “Upload.” Stops will now populate in the newly created route.\nFrom the Mobile App :\n1.  From your FCC download the Excel (.xls) file of the Delivery Manifest for the route to be uploaded.\n2.  On the Dispatch tab, click the blue circle with the cloud icon.\n3.  Click “Choose Files” and then click on the downloaded manifest.\n4.  Select “Create a new route,” assign a route number*, driver, warehouse, and click “Add New Route.” The new route will now populate in your Routes list.  (*suggestion: add a letter to the route number to indicate an uploaded route as opposed to a synced route)\n5.  Scroll to the bottom of the screen and click “Upload.”  Stops will now populate in the newly created route.\nVideo -  How to Upload a FXG Manifest - Mobile App"
+  },
+  {
+    "id": "5060171922839",
+    "title": "Managers: How to update your warehouse filter",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/5060171922839-Managers-How-to-update-your-warehouse-filter",
+    "created_at": "2022-03-28T00:48:15Z",
+    "updated_at": "2022-06-08T23:52:49Z",
+    "content": "From the Dispatch Console :\n1.  On the Routes page, choose the filter icon (3 lines in a downward triangle).\n2.  Set the “warehouse” option to “all\" or to the particular warehouse you wish to view.\nOR\n1.  On the Routes page, click Settings.\n2.  Click Preferences > Warehouses.\n3.   Set the “warehouse” option to “all\" or to the particular warehouse you wish to view.  Click \"Save.\"\nFrom the Mobile App :\n1.  Click the Dispatch tab. Click the Menu icon (three lines at top right of screen)\n2.  Click Settings > Preferences > Warehouse.\n3.  Set “Select Warehouse” to “All” or to the particular warehouse you wish to view.   Click Save.\nNOTE:    Larger organizations can set a warehouse filter so they can only see operations in a certain location.  Therefore, this setting can impact what data you can see.  If you can’t see all of your routes, or if you can’t see any of your routes,  check this setting first."
+  },
+  {
+    "id": "5058270725655",
+    "title": "Managers: How to Generate a Proof of Delivery Report/Handsheet",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/5058270725655-Managers-How-to-Generate-a-Proof-of-Delivery-Report-Handsheet",
+    "created_at": "2022-03-27T23:01:26Z",
+    "updated_at": "2025-07-15T20:45:41Z",
+    "content": "From the Dispatch Console :\n1.  On the Routes page, click on the box with desired route number to open the detail page for the route.\n2.   Under “Things That You Can Do,” click “Generate Report.”\n3.  The app will then create a digital proof of delivery report for the route and download the report in three formats: PDF, CSV, XLS.  You can download the report for printing or email."
+  },
+  {
+    "id": "5058087016727",
+    "title": "Drivers: How to enable Proof of Delivery (POD) - iOS",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/5058087016727-Drivers-How-to-enable-Proof-of-Delivery-POD-iOS",
+    "created_at": "2022-03-27T22:42:16Z",
+    "updated_at": "2023-05-03T19:51:16Z",
+    "content": "From the Mobile App :\n1.  Click the Settings tab.\n2.  Change the POD setting from “If Needed” to “Full.”  Go back to the Deliver tab.\n3.  On the map, click the pin for the stop you are delivering.\nOn the address card at the bottom of the screen, you will see a checkmark and an “X.”\nFor a    successful delivery  :  click the checkmark to open the POD screen.\nFrom the dropdown lists, select the delivery code and the package location. Take a photo of the delivery.\nIf needed, add notes, collect signature and type in customer name by clicking “Consignee Name” to open your keyboard.\nClick “Save.”\nYou will then return to the map screen where you can click “Next” to move to your next stop.\nFor a    failed delivery   : click the “X”\nFrom the dropdown list, select the delivery code.\nIf needed, take a photo and add notes.  Click “Save.”\nYou will then return to the map screen where you can click “Next” to move to your next stop.\nAt the end of the day, your BC can  generate a digital Proof of Delivery Report  in the Dispatch Console."
+  },
+  {
+    "id": "5057673512087",
+    "title": "Drivers: How to Move Location Pins in Driver App - iOS",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/5057673512087-Drivers-How-to-Move-Location-Pins-in-Driver-App-iOS",
+    "created_at": "2022-03-27T22:06:55Z",
+    "updated_at": "2023-04-13T20:25:58Z",
+    "content": "1.  On the Deliver tab, in the map zoom in to locate the pin you wish to move.\n2.  Click on the pin and on the detail screen, click the “Info” button (icon with an “i”).\n3.  The pin now displays the address and a white door icon.    Hard press on the white door icon until it changes to an “undo arrow.”\n4.  Drag the pin to the desired location.  If you make an error, click the “undo arrow” to move the pin back to its original location and try again.\n5.  Once the pin is correctly located, click the black circle with the arrow in the upper left corner to return to the delivery map.\nNOTE:  If you move a pin location in dispatch and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app.\nVideo:   How to Move Location Pins in Driver App - iOS"
+  },
+  {
+    "id": "4994310442135",
+    "title": "Managers: How to Move Location Pins in Dispatch",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4994310442135-Managers-How-to-Move-Location-Pins-in-Dispatch",
+    "created_at": "2022-03-24T19:06:25Z",
+    "updated_at": "2024-07-24T20:48:52Z",
+    "content": "From the Dispatch Console :\n1.  On the Routes page, click on the box with the desired route number to open the detailed page of the route.\n2.  On the map, zoom in to the location of the pin you want to move.\n3. Click on the pin until the address information appears.\n4.  Move the pin to the desired location.    Click “Save.”\nFrom the Mobile App :\n1.  Click on the Dispatch tab.\n2.  On the Routes page, click on the box with desired route number to open the detail page for the route.\n3.  On the map, zoom in to the location of the pin you want to move.\n4.  Hard press on the pin until the address information appears.\n5.  Move the pin to the desired location.    Click “Save.”\nNOTE:  If you move a pin location in dispatch and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app."
+  },
+  {
+    "id": "4946918940567",
+    "title": "Drivers: How to use Beans Route Lasso Transfer - iOS",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4946918940567-Drivers-How-to-use-Beans-Route-Lasso-Transfer-iOS",
+    "created_at": "2022-03-22T22:32:37Z",
+    "updated_at": "2023-09-14T16:23:48Z",
+    "content": "From the Mobile App :\nIn the driver app click on the deliver tab to see a map of the stops.    Click on the black circle with the hand icon.\n2.  Using your finger, draw a circle around the stops to be transferred.\n.\n3.  Click the Transfer button.\n4.  Review the generated manifest to be sure the list of stops to be transferred is correct.  If necessary, remove any stops incorrectly chosen by clicking on “remove from transfer.”  Click \"Transfer.\"\n5.  The app will generate a QR code and a six digit pin number.\n6.  The driver receiving the transfer must scan the QR code or enter the six digit pin number within 10 minutes."
+  },
+  {
+    "id": "4945322734231",
+    "title": "Drivers: How to sign in using a Beans Route invite code/text on IOS",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4945322734231-Drivers-How-to-sign-in-using-a-Beans-Route-invite-code-text-on-IOS",
+    "created_at": "2022-03-22T21:16:45Z",
+    "updated_at": "2022-06-09T20:54:10Z",
+    "content": "From the Mobile App :\nPlease make sure the text was sent to you, as each invite code is unique to each user.  Using someone else’s code will not work.\n1.  Open the text message sent to you.\n2.  Click the link in the text message to get the app for the appropriate device.  Download the Beans Route app.\n2.  Click the red “Sign in with email” button.  Make sure to sign in with the same email address your AO or BC used to create your profile.   Your password is your email address , unless you previously changed your password.  Passwords are case-sensitive.\n."
+  },
+  {
+    "id": "4944167831063",
+    "title": "Managers: How to resend an invite code/notify a driver",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4944167831063-Managers-How-to-resend-an-invite-code-notify-a-driver",
+    "created_at": "2022-03-22T20:35:49Z",
+    "updated_at": "2024-03-18T17:56:40Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Assets > Drivers and Dispatchers.\n2.  Highlight the driver to be notified by clicking on the row.    Under “Things That You Can Do,” click “Notify Drivers.”\n3.  A text notification will be automatically sent to the driver at the phone number listed in the driver profile.\nFrom the Mobile App :\n1.  Click the Dispatch Tab.    Click the Menu Bars on the top right.\n2.  Click: Assets > Drivers and Dispatchers.\n3.  Highlight the driver to be notified by clicking on the row.    Click the blue circle with the bell icon.\n4.  A text notification will be automatically sent to the driver at the phone number listed in the driver profile."
+  },
+  {
+    "id": "4939193034647",
+    "title": "Drivers: How to Receive a Lasso Transfer (iOS)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4939193034647-Drivers-How-to-Receive-a-Lasso-Transfer-iOS",
+    "created_at": "2022-03-22T17:37:14Z",
+    "updated_at": "2023-05-23T07:31:26Z",
+    "content": "From the Mobile App :\n1.  In the deliver tab, click on the “Add Stops” icon (pin with the plus sign) in the lower right corner.\n2.  Chose the “Scan Label” option which will open your camera.\n3.  Scan the QR code from the transferring driver’s app.\nNOTE: If you are using a mounted device or are unable to scan the QR code, click on the “Add Stops” icon and choose the “Transfer Code” option.  Enter the six digit code from the transferring driver’s app.\nVideo:   How to Receive a Lasso Transfer - iOS"
+  },
+  {
+    "id": "4938787357079",
+    "title": "Managers: How to modify a driver profile",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4938787357079-Managers-How-to-modify-a-driver-profile",
+    "created_at": "2022-03-22T17:21:27Z",
+    "updated_at": "2024-03-22T20:33:24Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Assets > Drivers and Dispatchers.\n2.  Highlight the driver to be modified by clicking on the row.    Under “Things That You Can Do,” click “Modify Driver.”\n3.  Edit the information in the user profile.  *    Click \"Save.\"\nFrom the Mobile App :\n1.  Click the Dispatch tab.    Click the Menu Bars on the top right.\n2.  Click: Assets > Drivers and Dispatchers.\n3.  Highlight the driver to be modified by clicking on the row.    Click the modify button (blue circle with pencil icon).\n4.  Edit the information in the user profile.   *   Click \"Save.\"\n.\n*   Note: When a driver is added to Beans Route, the email address entered becomes the driver’s user name AND password.  You may change a driver’s email address, but the driver’s login password will not change!  The driver may use the “forgot password” link on the mobile app to change the password or reach out to support at    support@beans.ai    and include your company name and the information for the user to be altered."
+  },
+  {
+    "id": "4914806808855",
+    "title": "Managers: How to Enable a Disabled Driver",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4914806808855-Managers-How-to-Enable-a-Disabled-Driver",
+    "created_at": "2022-03-21T18:54:53Z",
+    "updated_at": "2022-06-09T21:02:12Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Settings > Drivers and Dispatchers.\n2.  At the top of the driver list you will see two grey boxes: “Active” and “Signed In.”    Click on the “X” in both grey boxes to remove the filters.\n3.  The driver list will now display all drivers, including those previously disabled.\n4.  Highlight the driver you wish to enable by clicking on the row.    Under “Things That You Can Do,” click “Modify Driver.”    Change the Status from Disabled to Active.    Click \"Save.\"\nFrom the Mobile App :\n1.  Click the Dispatch Tab.    Click the Menu Bars on the top right of the screen.\n2.  Click: Settings > Drivers and Dispatchers.\n3.  At the top of the driver list you will see two grey boxes: “Active” and “Signed In.”    Click on the “X” in both grey boxes to remove the filters.\n4.  The driver list will now display all drivers, including those previously disabled.    Highlight the driver to be enabled by clicking on the row.  Click the blue circle with the pencil icon.\n5.  Change Status from Disabled to Active.    Click \"Save.\""
+  },
+  {
+    "id": "4913862683159",
+    "title": "Managers: How to Disable a Driver",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4913862683159-Managers-How-to-Disable-a-Driver",
+    "created_at": "2022-03-21T18:18:20Z",
+    "updated_at": "2024-07-01T14:53:51Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Settings > Drivers and Dispatchers.\n2.  Highlight the driver to be disabled by clicking on the row.   Under “Things That You Can Do,” click “Modify Driver.”\n3.  Change Status from Active to Disabled.    Click Save.\nFrom the Mobile App :\n1.  Click the Dispatch tab.    Click the Menu Bars on the top right of the screen.\n2.  Click: Settings > Drivers and Dispatchers.\n3.  Highlight the driver to be disabled by clicking on the row.    Click the blue circle with the pencil icon.\n4.  Change Status from Active to Disabled.    Click \"Save.\"\nVideo:   How to Disable a Driver"
+  },
+  {
+    "id": "4911659178519",
+    "title": "Managers: How to manually create a route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4911659178519-Managers-How-to-manually-create-a-route",
+    "created_at": "2022-03-21T17:05:02Z",
+    "updated_at": "2022-09-29T17:59:28Z",
+    "content": "From the Dispatch Console :\n1.  On the routes page under “Things You Can Do,” click the “Add Route” button.\n2.  Give the route a name to identify it as a created route (e.g., 123x).    Select the driver.    Select the warehouse.    Click “Add Route.”\n3.  The new route will populate in your routes list, and you can now manually add stops or move stops from another route to the new route.\n4.  You can now upload a manifest or manually add stops to the route.\nFrom the Mobile App :\n1.  Click the “Dispatch” tab.\n2.  Click on the blue circle with the plus sign.\n3.  Give the route a name to identify it as a created route (e.g., 123x).    Select the driver.    Select the warehouse.    Click “Add Route.”\n4.  The new route will populate in your routes list, and you can now manually add stops or move stops from another route to the new route.\n5.  You can now upload a manifest or manually add stops to the route.\nVideo:   How to manually create a route"
+  },
+  {
+    "id": "4908918812439",
+    "title": "Managers: How to assign a driver to a route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4908918812439-Managers-How-to-assign-a-driver-to-a-route",
+    "created_at": "2022-03-21T15:35:26Z",
+    "updated_at": "2022-06-08T23:51:53Z",
+    "content": "From the Dispatch Console :\n1.  On the routes page, click on the row of the route you want to assign (row will be highlighted in grey).  Under \"Thing That You Can Do,\" click \"Modify Route.\"\n2.  Select the driver from the dropdown list.\n3.  Click “Save.”\nFrom the Mobile App :\n1.  Click the “Dispatch” tab.\n2.  Click on the row of the route you want to assign (row will be highlighted in grey).   Click on the blue circle with the pencil icon.\n3.  Select the driver from the dropdown list.\n4.  Click “Save.”"
+  },
+  {
+    "id": "4908178962711",
+    "title": "Managers: Add or Remove Seats ",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4908178962711-Managers-Add-or-Remove-Seats",
+    "created_at": "2022-03-21T15:05:04Z",
+    "updated_at": "2023-02-13T21:35:06Z",
+    "content": "1.  From the Dispatch Console, navigate to Settings > Preferences > Subscriptions\n2.  Add the number of seats to purchase or remove.    Click “Change Seats”\nFrom the Mobile App :\n1.  Click the Dispatch Tab.  Click the Menu Bars on the top right of the screen.\n2.  Click: Settings > Preferences > Subscriptions.\n.\n3.  Add the number of seats to purchase or remove.  Click \"Change Seats.\"\nVideo:   Add or Remove Seats"
+  },
+  {
+    "id": "4839751949975",
+    "title": "Drivers: How to add a note to a stop",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4839751949975-Drivers-How-to-add-a-note-to-a-stop",
+    "created_at": "2022-03-17T23:54:05Z",
+    "updated_at": "2026-03-25T20:37:00Z",
+    "content": "1.  In the app, go to the deliver tab.\n2.  Click on the pin/stop where you want to add a note.    Click on the “Info” button.\n3.  Drag the Info screen up.  You can choose from Parking, Entrance, Elevator, or enter your own note; you can also include pictures by clicking the “add photo” icon.\n.\n4.  Click “Save.”"
+  },
+  {
+    "id": "4838301673751",
+    "title": "Managers:  How to Add a Driver (FXG)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4838301673751-Managers-How-to-Add-a-Driver-FXG",
+    "created_at": "2022-03-17T22:26:06Z",
+    "updated_at": "2024-03-07T17:28:19Z",
+    "content": "From the Dispatch Console :\n1.  In the Dispatch Console: Assets > Drivers and Dispatchers.\n2.  Under “Things That You Can Do,” click “Add Driver.”\n3.  To add a driver you are  required to enter  the driver’s full name, phone number, email, and FedEx ID#.  For role, select \"driver.\"  You can also enter additional information such as the driver's direct manager, driver's assigned warehouse, and expiration dates for Drivers License and DOT cards.\n(For non-FXG accounts, you must enter full name, phone number, and email, but are not required to add an employee ID#).\n4.  If safety is enabled for the account, be sure the “Enroll in safety training” option is checked.    Click “add driver.”\nNOTE:  The email entered in the driver profile will be used as both the user name AND password .  Best practice is to enter email addresses in all lowercase letters as the password is case sensitive.\n5.  The driver will automatically receive a text message asking them to download the app and sign in. *\nFrom the Mobile Ap p:\n1.  From the Dispatch tab, click the Menu Bars on the top right of the screen.\n2.  Click: Assets > Drivers and Dispatchers.\n3.  Click the blue circle with the plus sign.\n4.  To add a driver you are  required to enter  the driver’s full name, phone number, email, and FedEx ID#.  For role, select \"driver.\"  You can also enter additional information such as the driver's direct manager, driver's assigned warehouse, and expiration dates for Drivers License and DOT cards.\n(For non-FXG accounts, you must enter full name, phone number, and email, but are not required to add an employee ID#).\n6.  The driver will automatically receive a text message asking them to download the app and sign in. *\n*When a user is added to your Beans Route account, the   email used to create the user account is also the user’s password  .  Passwords are case sensitive, so we suggest using all lowercase letters when entering email addresses.  Be sure to verify that all information is correctly entered before hitting “add driver.”\nNOTE: The process above is the same for adding BCs and AOs.  BCs should be entered as “Dispatchers” and AOs as “Admins.\"  Simply change the “Role” from the dropdown list."
+  },
+  {
+    "id": "4836320625047",
+    "title": "Drivers:  Add Custom Marker Pins in Beans Route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4836320625047-Drivers-Add-Custom-Marker-Pins-in-Beans-Route",
+    "created_at": "2022-03-17T21:01:02Z",
+    "updated_at": "2024-03-06T22:19:51Z",
+    "content": "1.  In the driver app from the deliver tab, hard press where you want to drop a custom marker.\n2.  Choose the type marker from the dropdown list and enter your notes or code.\n.     .\n3.  To view notes or codes for a custom marker, hard press on the marker and click the red pen icon.\n."
+  },
+  {
+    "id": "4835532374551",
+    "title": "Drivers:  Locate and Verify Assignee Code (Login Issues)",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4835532374551-Drivers-Locate-and-Verify-Assignee-Code-Login-Issues",
+    "created_at": "2022-03-17T20:25:57Z",
+    "updated_at": "2024-03-18T17:30:45Z",
+    "content": "1.  Ask your manager to locate your assignee code in the Dispatch Console: Assets > Drivers and Dispatchers.  The assignee code is the alpha-numeric code listed in your user profile.\n2.  Locate your Assignee Code in your Beans Route App: Settings > Profile.  The assignee code under “company info” should match the one in your user profile on the Drivers and Dispatchers page.\n3.  If the code does not match, you can manually type in the correct code or ask your manager to send you a  new invite link ."
+  },
+  {
+    "id": "4833380109463",
+    "title": "Managers: Enable Drivers to utilize Beans Route Lasso Transfer Feature",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4833380109463-Managers-Enable-Drivers-to-utilize-Beans-Route-Lasso-Transfer-Feature",
+    "created_at": "2022-03-17T19:04:12Z",
+    "updated_at": "2022-06-23T21:17:01Z",
+    "content": "In dispatch go to settings > Preferences > Routes:\n2. From the list check, “allow drivers to transfer stops to another driver on the app”\n3.  Click Save"
+  },
+  {
+    "id": "4633856761495",
+    "title": "Drivers: How to Solve Beans Route App Login Issues",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/4633856761495-Drivers-How-to-Solve-Beans-Route-App-Login-Issues",
+    "created_at": "2022-03-08T17:25:08Z",
+    "updated_at": "2024-04-27T23:49:12Z",
+    "content": "First Time Logging In\nMake sure you are on the Beans Route app   and not the Beans Maps for Apartments app\nYour default password is your email address. Try logging in with that.\nIf that fails, check with your Manager to see what email address is set for you in Beans Route.\nIt may be the wrong email address, or it may have typos in it.\nIf it's wrong, then you can try logging in using the wrong address as your password.\nIf you still cannot login, then you can ask your Manager to send you a new invite link.\nYou will receive the link as a text message. Tap on it and select \"Open In Beans Route\".\nSubsequent Login Attempts\nIf logging in fails due to password mismatch, you can reset your password with these steps.\nTap the \"Trouble Signing In\" link.\nAn email will be sent to the email address set for you in Beans Route.\nIMPORTANT: If the email in Beans Route is wrong, then you will not receive the email.\nAsk your Manager what email address is set for you in Beans Route.\nOnce you receive the email, click the link in it.\nFollow the password reset steps.\nUse your new password to login to Beans Route.\nIf logging in still fails, confirm with your Manager that your Beans Route user is not \"disabled\".\nReset Password Video Tutorial\nHow Managers Can Resend An Invite Link\nGo to Drivers & Dispatch.\nHighlight the driver by clicking on the white space on their row.\nClick   Notify Driver  .\nHave the driver tap the link in the text message notification that they received.\nHave the driver select   Open in Beans Route.\nStill having login trouble?\nReach out to Beans Route Support through  support@beans.ai  or through    +1 (415) 888-9059"
+  },
+  {
+    "id": "14080566940311",
+    "title": "Step 2: Verify your Assignee Code",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/14080566940311-Step-2-Verify-your-Assignee-Code",
+    "created_at": "2023-04-21T23:00:24Z",
+    "updated_at": "2024-05-01T15:16:26Z",
+    "content": "1.  Ask your manager to locate your assignee code in the Dispatch Console by clicking Settings > Drivers and Dispatchers.  Each user in the account has a unique assignee code which is an alpha-numeric code followed by a dash and then 3 more characters.\n2.  Locate your Assignee Code in your Beans Route App: Settings > Profile.  The assignee code under “company info” should match the one in your user profile on the Drivers and Dispatchers page.\n3.  If the assignee code does not match, you can manually type in the correct code or ask your manager to send you a new invite link by selecting your name in the list and clicking \"Notify Drivers.\"  The text message you receive will have the assignee code which you can then copy and paste into the \"company info\" line in your mobile app."
+  },
+  {
+    "id": "22022719705623",
+    "title": "Step 3: Starting your route",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/22022719705623-Step-3-Starting-your-route",
+    "created_at": "2024-03-12T20:53:46Z",
+    "updated_at": "2024-03-18T17:26:06Z",
+    "content": "1. Open the Beans Route App\n2. The Pre-Dispatch Scan functionality should open automatically. If it does not, click on the camera icon in the top right hand corner of your app (iPhone) or the Barcode Scan icon (Android)\n3. This will turn your phones camera into a scanner. Point your phones camera at the barcode on the package listed on your route.\n4. You will see two things:\n1. Package Reconciled (This means that you scanned a barcode that is associated with a package on your route)\n2. Stop # (We would recommend Marking the stop sequence number on your package so that you know in what order to load your vehicle and which package is associated with which stop. This will save you a lot of time)\n5. When you finish scanning all your packages, click on the X in the top left hand Corner.\n6. Click on the hub image on the bottom of your scan app. (If this is your first time logging in, you'll have to click on Clock In.)\n7. Click on Finish Scan\n8. To begin your deliveries (iPhone: Click on Next in the top right hand corner) (Android: Click on the first Pin)\n9. Click on the navigate button that comes up and follow the route."
+  },
+  {
+    "id": "14080666130839",
+    "title": "Step 4: Choosing Navigation / Maps",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/14080666130839-Step-4-Choosing-Navigation-Maps",
+    "created_at": "2023-04-21T23:03:08Z",
+    "updated_at": "2024-03-18T19:30:24Z",
+    "content": "1. Log into your app, Click on the settings icon in the bottom right hand corner of your app\n2. Click on the navigation section of the app\n3. Choose the app you would like to use."
+  },
+  {
+    "id": "22156913112215",
+    "title": "Step 5: Completing a Stop/POD",
+    "url": "https://beansai.zendesk.com/hc/en-us/articles/22156913112215-Step-5-Completing-a-Stop-POD",
+    "created_at": "2024-03-18T17:20:36Z",
+    "updated_at": "2024-03-18T19:30:39Z",
+    "content": "From the Mobile App :\nZoom in on the map to identify your route; deliveries are indicated by blue pins and pickups are blue squares.\nFor a Successful Delivery\n1.  Select your stop by clicking on the pin; the address card with stop details will open at the bottom of the screen. To complete the delivery, click the checkmark on the address card.\n2.  Scan the barcode on the package, and the POD screen will automatically open.   Fill in the info on the POD screen.    If you scan the incorrect package you will get an error message.\n3.  Select Reason Code.\n4.  Select Package Location.\n5.  Take photo and click “Save.”\n6.  The app will return to the Deliver tab; click “Next” to move to the next stop on your route.\nFor a Failed Delivery\n1.  Select your stop by clicking on the pin; the address card with stop details will open at the bottom of the screen.  To complete the delivery, click the \"X\" on the address card.\n2.  Select Reason Code.\n3.  If needed take photo; if not click “Save.”\n4.  Return to the Deliver tab, and click “Next” to move to the next stop on your route. Return the package to the Warehouse."
+  }
+]

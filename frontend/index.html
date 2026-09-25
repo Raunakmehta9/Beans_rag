@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beans.ai — Intelligent Support Agent</title>
+  <meta name="description" content="AI-powered support assistant for Beans.ai with grounded citations and second-level YouTube video playback.">
+  <link rel="icon" type="image/png" href="/static/beans_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css?v=3">
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Top Navigation Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <img src="/static/beans_logo.png" alt="Beans.ai" class="topbar-logo">
+        <div class="topbar-brand">
+          <span class="topbar-title">Beans.ai</span>
+          <span class="topbar-subtitle">Support Agent</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <button id="stats-btn" class="topbar-btn" title="View system stats">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Stats
+        </button>
+        <button id="clear-chat-btn" class="topbar-btn" title="Clear conversation">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+          Clear
+        </button>
+      </div>
+    </header>
+
+    <!-- Chat Messages -->
+    <main class="chat-main" id="messages-container">
+      <!-- Welcome Card -->
+      <div class="welcome-card">
+        <img src="/static/beans_logo.png" alt="Beans.ai" class="welcome-logo">
+        <h1 class="welcome-title">How can I help you today?</h1>
+        <p class="welcome-desc">Ask anything about <strong>Beans Route</strong> — dispatching, mobile apps, manifests, route optimization, and more. Every answer is grounded in official docs and video tutorials.</p>
+      </div>
+
+      <!-- Suggested Inquiries -->
+      <div class="suggestions-row" id="suggestions-row">
+        <button class="suggestion-chip" data-query="How do I move a pin in the Beans Route iPhone mobile app?">📍 Moving pins on iPhone</button>
+        <button class="suggestion-chip" data-query="How do I link an existing Safety Forward account with Beans Route?">🛡️ Link Safety Forward</button>
+        <button class="suggestion-chip" data-query="How do I perform Proof of Delivery or Digital Handsheet on Android?">📦 Proof of Delivery</button>
+        <button class="suggestion-chip" data-query="How do I modify stops using the polygon tool in dispatch?">📐 Polygon tool</button>
+        <button class="suggestion-chip" data-query="How do I retrieve a manifest for upload on mobile?">📋 Retrieve manifest</button>
+      </div>
+    </main>
+
+    <!-- Input Area -->
+    <footer class="input-bar">
+      <form id="chat-form" class="chat-form">
+        <div class="input-wrapper">
+          <textarea id="user-input" rows="1" placeholder="Ask about Beans Route..." autocomplete="off"></textarea>
+          <button type="submit" id="send-btn" class="send-btn" disabled>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </footer>
+  </div>
+
+  <!-- Stats Modal -->
+  <div id="stats-modal" class="modal-backdrop hidden">
+    <div class="modal-card stats-modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">⚙️ System Stats & Configuration</h3>
+        <button id="close-stats-btn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-item">
+          <span class="stat-label">LLM Engine</span>
+          <span class="stat-value" id="stat-llm">Loading…</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Embedding Model</span>
+          <span class="stat-value" id="stat-embed">all-MiniLM-L6-v2</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Vector Store</span>
+          <span class="stat-value">ChromaDB (HNSW)</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Distance Metric</span>
+          <span class="stat-value">Cosine Similarity</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Total Indexed Chunks</span>
+          <span class="stat-value highlight" id="stat-chunks">—</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Similarity Threshold (τ)</span>
+          <span class="stat-value" id="stat-threshold">≥ 0.35</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Top-K Retrieval</span>
+          <span class="stat-value" id="stat-topk">5</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Status</span>
+          <span class="stat-value highlight" id="stat-status">●  Online</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div id="video-modal" class="modal-backdrop hidden">
+    <div class="modal-card video-modal-card">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge">▶ Video Playback</span>
+          <h3 id="modal-video-title" class="modal-title">Video Title</h3>
+        </div>
+        <button id="close-modal-btn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="video-container" id="video-embed-container"></div>
+      <div class="modal-footer">
+        <span id="modal-timestamp-info" class="timestamp-info">Cue: 00:00</span>
+        <a id="modal-external-link" href="#" target="_blank" rel="noopener" class="btn-external">Open on YouTube ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js?v=3"></script>
+</body>
+</html>
